@@ -1,0 +1,16 @@
+{
+  "name": "socialapp",
+  "version": "1.0.0",
+  "description": "It is a social community",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies":{
+  	"express":"*",
+  	"body-parser":"*",
+  	"mongoose":"*"
+  },
+  "author": "shyam / qassim / toka",
+  "license": "ISC"
+}
