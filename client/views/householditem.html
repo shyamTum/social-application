@@ -1,0 +1,15 @@
+<div class="panel panel-default" ng-init="getHouseholdItems">
+  <div class="panel-heading">
+    <h3 class="panel-title">Current Household items</h3>
+  </div>
+  <div class="panel-body">
+    <div ng-repeat="item in householditems">
+    	<div class="col-md-3">
+    		<div class="col-md-6">
+    			{{item.title}}
+    			<p>{{item.description}}</p>
+    		</div>
+    	</div>
+    </div>
+  </div>
+</div>

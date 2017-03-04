@@ -3,6 +3,9 @@ var app=express();
 var bodyParser=require('body-parser');
 var mongoose = require('mongoose');
 
+app.use(express.static(__dirname+'/client'));
+app.use(bodyParser.json());
+
 Householditem = require ('./models/householditem');
 //connect to mongoose
 mongoose.connect ('mongodb://localhost/socialappstore');
